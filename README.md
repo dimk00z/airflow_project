@@ -23,8 +23,6 @@
 1. Чтобы ускорить процесс, придумали разбивать датасет на части и парсить сгенерированными параллельными
    тасками.
    
-   ![DAG schema](http://i.piccy.info/i9/d3a2fc052d0981b8fbdd5151a71649c7/1592991993/23240/1380201/74489dag_tasks.png)
-
    Файл с ДАГом [air101_project_with_parts](https://github.com/dimk00z/airflow_project/blob/master/air_project_parallels_dag.py) содержит сделующие таски:
 
   - `load_links_from_gsheet` - загружает данные стобца из заданной таблицы и сохраняет их в `cvs` файл.
